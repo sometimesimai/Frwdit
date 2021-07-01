@@ -9,7 +9,7 @@ from pyrogram.errors import FloodWait
 from config import Config
 from translation import Translation
 
-FROM = Config.FROM_CHANNEL
+FROM = int(Config.FROM_CHANNEL)
 TO = Config.TO_CHANNEL
 FILTER = Config.FILTER_TYPE
 
